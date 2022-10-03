@@ -1,0 +1,22 @@
+.container {
+  width: 960px;
+  margin: auto;
+  border: 2px black solid;
+}
+
+.nav {
+  display: flex;
+  align-items: right;
+  gap: 4rem;
+  direction: rtl;
+}
+
+.borderBottom {
+  border-bottom: 2px gray solid;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
