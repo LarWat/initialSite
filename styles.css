@@ -5,10 +5,9 @@
 }
 
 .nav {
-  display: flex;
-  align-items: right;
-  gap: 4rem;
-  direction: rtl;
+  text-align: right;
+  padding: 10px;
+  word-spacing: 20px;
 }
 
 .borderBottom {
@@ -21,4 +20,15 @@
   justify-content: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 3rem;
+}
+
+.mainImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.splashImg {
+  height: 300px;
+  width: 300px;
 }
