@@ -1,7 +1,6 @@
 .container {
   width: 960px;
   margin: auto;
-  border: 2px black solid;
 }
 
 .nav {
@@ -31,4 +30,15 @@
 .splashImg {
   height: 300px;
   width: 300px;
+}
+
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.borderTop {
+  border-top: 2px gray solid;
 }
