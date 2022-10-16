@@ -58,6 +58,10 @@ a:active {
   border-top: 2px gray solid;
 }
 
+.addSpaceTop {
+  margin-top: 25px;
+}
+
 /* Adoption page */
 
 .adoptionHeader {
@@ -97,4 +101,20 @@ a:active {
   height: 150px;
   width: 150px;
   padding: 25px;
+}
+
+/*For the Form on the foster page */
+.formContainer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
+
+.fosterFormHeader {
+  text-align: center;
+}
+
+input {
+  margin-right: 20px;
 }
