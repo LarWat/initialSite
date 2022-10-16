@@ -72,3 +72,29 @@ a:active {
   font-size: 1.2em;
   list-style: none;
 }
+
+.adoptPicsGridContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adoptPicsContainer {
+  width: 960px;
+  display: grid;
+  grid-template-areas: "header header header";
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.adoptablePicsHeader {
+  grid-area: header;
+  justify-content: center;
+}
+
+.adoptPics {
+  height: 150px;
+  width: 150px;
+  padding: 25px;
+}
